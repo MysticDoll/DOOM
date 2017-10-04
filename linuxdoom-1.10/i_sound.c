@@ -48,6 +48,9 @@ rcsid[] = "$Id: i_unix.c,v 1.5 1997/02/03 22:45:10 b1 Exp $";
 #include <time.h>
 #include <signal.h>
 
+// add for JSLinux
+#include <errno.h>
+
 #include "z_zone.h"
 
 #include "i_system.h"
